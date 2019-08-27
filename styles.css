@@ -1,0 +1,100 @@
+/*use rem for sizing 1rem= 16px
+circle shorthand= margin: 40rem 39px auto 0;
+url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)
+border:solid; allows border to be seen can be expanded with border-width
+border-width: circle shorthand;
+padding allows space between text and edge of elements
+margin space between current element and near elements
+common block elements: <p>, headers, divs, lists, forms
+common inline elements: spans, images, anchors<a>
+you can alter the width of block elements but not inline
+elements
+inline-block elements allow you to change the width
+and allow other elements on the same inline
+display: none, allows you to remove an element go for
+hiding elements
+visibility can be set to hidden in order to make an elements disapear
+but it's position is still respected as if it was still there.
+HTML Positioning rules
+1. Content is Everything
+2. Order Comes From code
+3. Children Sit on Parents
+CSS Position:
+Static- default html Position
+Relative- position selected element relative to itself natural Position
+  when moving an element with relative it does not move other elements
+Absolute- positions elements relative to their parents
+  absolute positioning affects other elements.  takes elements out of the html flow
+Fixed- fixes an element when scrolling great for nav bars.
+Centering
+text-align: center; centers elements
+margin: auto will center element vertically or horizontally
+z-index specifies the stack order of html elements*/
+
+body{
+  font-family: 'Source Serif Pro', serif;
+  text-align: center;
+  background-color: #c7f0db;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+}
+.intro {
+  padding: inherit;
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+  margin-bottom: auto;
+
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.topcontainer {
+  background-color: #d2fafb;
+  height: 22rem;
+  width: 100%;
+  text-align: center;
+  padding: 100px;
+}
+.skills {
+  text-align: center;
+  display: inline-block;
+  height: 30rem;
+  width: 30rem;
+  background-color: #51dacf;
+  border-radius: 70rem;
+}
+.skl {
+  position: relative;
+  top: 30px;
+
+}
+li {
+  position: relative;
+  top: 5rem;
+  font-size: 1.1rem;
+
+}
+.hobbies {
+  font-family: 'Source Serif Pro', serif;
+  width: 30rem;
+  height: 30rem;
+  background-color: #f6edcf;
+  text-align: center;
+  display: inline-block;
+  border-radius: 70rem;
+
+
+}
+h3 {
+  padding: 1rem;
+
+}
+
+.h {
+  padding-top: 1rem;
+}
